@@ -1,3 +1,10 @@
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
 nnoremap <silent> <F8> :TlistToggle<CR>
+set hidden
+set number
+set vb t_vb=
+set ts=2 sts=2 sw=2 expandtab
+syntax on
 filetype plugin on
 set ofu=syntaxcomplete#Complete
