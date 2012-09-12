@@ -21,10 +21,9 @@
 "}
 
 
-" Map NERDTree and TagList keys, TagList on right side {
+" Map NERDTree and Tagbar keys, Tagbar right side {
   nnoremap <silent> <F2> :NERDTreeToggle<CR>
-  nnoremap <silent> <F3> :TlistToggle<CR>
-  let Tlist_Use_Right_Window = 1
+  nmap <F3> :TagbarToggle<CR>
 " }
 
 
